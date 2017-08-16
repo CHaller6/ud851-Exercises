@@ -24,6 +24,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import static android.R.id.message;
+
 public class MainActivity extends AppCompatActivity {
 
     /* Fields that will store our EditText and Button */
@@ -62,6 +64,12 @@ public class MainActivity extends AppCompatActivity {
                 Context context = MainActivity.this;
 
                 // TODO (1) Store ChildActivity.class in a Class object called destinationActivity
+                class destinationActivity {
+                    // Constructor
+                    destinationActivity() {
+
+                    }
+                }
 
                 // TODO (2) Create an Intent to start ChildActivity
 
